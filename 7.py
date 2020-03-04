@@ -1,0 +1,10 @@
+from tkinter import *
+top=Tk()
+top.geometry("140x100")
+frame=Frame(top)
+frame.pack()
+btn1=Button(frame,text="submit",fg="red",activebackground="red")
+btn1.pack(side=LEFT)
+btn2=Button(frame,text="remove",fg="brown",activebackground="brown")
+btn2.pack(side=RIGHT)
+top.mainloop()
